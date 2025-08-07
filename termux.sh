@@ -1,14 +1,14 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
 # === KONFIGURASI VPS ===
-VPS_IP="143.198.194.25"
+VPS_IP="#"
 VPS_USER="root"
-REMOTE_COMMAND_FILE="/root/controlpctelegram/command.txt"
+REMOTE_COMMAND_FILE="/root/controlpctelegram/poweron/command.txt"
 
 # === KONFIGURASI WAKE-ON-LAN ===
-MAC="8C:16:45:86:39:0B"
-BROADCAST_IP="192.168.1.255"     # Broadcast IP
-DIRECT_IP="192.168.1.17"         # IP langsung ke PC
+MAC="#"
+BROADCAST_IP="#"     # Broadcast IP
+DIRECT_IP="#"         # IP langsung ke PC
 PORT=9                           # Port WOL umum
 
 # Fungsi untuk mengirim magic packet

@@ -4,16 +4,16 @@ import time
 import requests
 
 # === KONFIGURASI VPS ===
-VPS_HOST = "143.198.194.25"
+VPS_HOST = "#"
 VPS_PORT = 22
 VPS_USERNAME = "root"
-VPS_PASSWORD = "servergpi"
+VPS_PASSWORD = "#"
 REMOTE_COMMAND_FILE = "/root/controlpctelegram/command.txt"
 REMOTE_STATUS_FILE = "/root/controlpctelegram/status.txt"
 
 # === KONFIGURASI TELEGRAM ===
-TELEGRAM_TOKEN = "8028859989:AAF0nlGofCuJqeRikXsW20v0iZ7xZc7V01o"
-CHAT_ID = 6598064902  # Ganti dengan ID Telegram kamu (INT)
+TELEGRAM_TOKEN = "#"
+CHAT_ID = 12345678  # Ganti dengan ID Telegram kamu (INT)
 
 # === Kirim pesan Telegram ===
 def send_telegram_message(message):
@@ -100,3 +100,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

@@ -16,7 +16,7 @@ TERMUX_COMMAND_FILE = "/root/controlpctelegram/poweron/command.txt"
 VPS_HOST = "localhost"
 VPS_PORT = 22
 VPS_USERNAME = "root"
-VPS_PASSWORD = "servergpi"
+VPS_PASSWORD = "#"
 
 # === Autentikasi User ===
 def is_authorized(user_id):
